@@ -131,4 +131,64 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/I2/View a full notification</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>93423ad2-ec79-4c71-b10c-7e356ec3fc44</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Question bank/Add a essay question in question bank</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>538e8a4c-7e83-46fc-a803-31fc70086081</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Question bank/Add a new multiple choice question</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3e0a8873-6093-4cff-bcfb-0fd8377a6472</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Question bank/Add a new Short answer question</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b9ea0608-1e28-4ad0-9c5e-aa9d768246af</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Question bank/Add a numerical question</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9c1b79cd-8e9c-49ca-a231-2634b4707091</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Question bank/Add a True False question</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ca5a5c39-cc25-468a-84c7-34fc722bb074</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Question bank/Duplicate a essay question</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5f4b1505-9b21-40b1-be4e-75484648a25c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Question bank/Edit a essay question</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9941d8bf-d3a2-433f-b470-f16edffe18a8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Question bank/Preview a question in question bank</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>33db7296-9dfc-417b-930b-a8b156587848</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Question bank/Export essay quesion as XML</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>74a6baa2-416d-4e00-b429-57600c55b719</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Question bank/Delete a question in question bank</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
