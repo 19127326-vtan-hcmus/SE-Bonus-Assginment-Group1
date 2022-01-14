@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sent email have graded a lesson to a student</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bdfce800-9ca8-406f-bb34-800f73be385a</testCaseGuid>
+</TestCaseEntity>
