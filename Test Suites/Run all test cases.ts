@@ -191,4 +191,64 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Question bank/Delete a question in question bank</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>f09b5fbb-3d05-43cf-a8f6-380f7e2f5bf7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Quiz/Preview a quiz by teacher</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7adc368b-d883-43ff-9298-691ffb6732c0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Quiz/Attempt quiz by student</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9558bfc0-83a0-4a87-8b76-40de6dcff20c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Quiz/Add new question to quiz (edit quiz)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f7fa506d-a71b-474d-9085-bc88365c6af5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Deadline/View a deadline by student</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2f397cab-a458-4f70-8282-49530ee7f10e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Deadline/Submit assignment in a deadline by student</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>08c0f420-e137-487e-a2ce-4139300d10b5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Deadline/Edit a submission in deadline by student</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cd0ca0a2-9394-4dcc-ac3d-7094d58f7cab</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Deadline/Download the submission in deadine by student</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1812462d-9fc8-47b6-bfe3-b4ed57f7628d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Deadline/Cancel remove a submission in deadline</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f0166c03-e196-45e0-8590-6e3f4f06d51d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Deadline/Remove the submission in a deadline by student</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a5108250-8335-4e7f-94b7-1aafb57a5f84</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/I1/Cancel add discussion topic</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
