@@ -839,6 +839,46 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_1 Deadline 1/button_Cancel_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Edit questions/a_Duplicate",
+      "brokenLocator": "//div[@id\u003d\u0027action-menu-1-menu\u0027]/a[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Quiz 5\u0027])[1]/following::a[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Edit questions/a_Duplicate_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Editing an Essay question/input_Question name_name",
+      "brokenLocator": "//input[@id\u003d\u0027id_name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Editing an Essay question/input_Question name_name_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Edit questions/a_Edit question",
+      "brokenLocator": "//div[@id\u003d\u0027action-menu-1-menu\u0027]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Quiz 5\u0027])[1]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Edit questions/a_Edit question_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Editing quiz quiz 6/a_from question bank",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642035243872_454\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Add\u0027])[1]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Editing quiz quiz 6/a_from question bank_neighbor.png"
     }
   ]
 }
