@@ -729,6 +729,86 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_1 Deadline 1/button_Cancel_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_5 Lesson 5 1/button_Grade essays",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61df6928268f812\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mark as done\u0027])[1]/following::button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_5 Lesson 5 1/button_Grade essays_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_5 Lesson 5 Grade essays/a_Email graded essays",
+      "brokenLocator": "//section[@id\u003d\u0027region-main\u0027]/div[2]/div/table/tbody/tr/td[4]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Help and documentation\u0027])[1]/preceding::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_5 Lesson 5 Grade essays/a_Email graded essays_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_5 Lesson 5 Grade essays/a_Email ALL graded essays",
+      "brokenLocator": "//section[@id\u003d\u0027region-main\u0027]/div[2]/div/table/tbody/tr[2]/td[4]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Help and documentation\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_5 Lesson 5 Grade essays/a_Email ALL graded essays_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/i_Site administration_icon fa fa-bell-o fa-fw",
+      "brokenLocator": "//div[@id\u003d\u0027nav-notification-popover-container\u0027]/div/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard/i_Site administration_icon fa fa-bell-o fa-fw_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/a_0",
+      "brokenLocator": "//a[@id\u003d\u0027message-drawer-toggle-61dc107224f9a61dc1072131d45\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027LC\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard/a_0_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/a_0",
+      "brokenLocator": "//a[@id\u003d\u0027message-drawer-toggle-61dc107224f9a61dc1072131d45\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Profile\u0027])[1]/preceding::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard/a_0_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/div_See all",
+      "brokenLocator": "//div[@id\u003d\u0027popover-region-container-61da2d4595e0961da2d45767654\u0027]/a/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027AU\u0027])[1]/preceding::div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard/div_See all_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/a_View full notification",
+      "brokenLocator": "//div[@id\u003d\u0027popover-region-container-61da2c529109e61da2c528055f4\u0027]/div[2]/div/div/div/a[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Notifications\u0027])[1]/following::a[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard/a_View full notification_neighbor.png"
     }
   ]
 }
