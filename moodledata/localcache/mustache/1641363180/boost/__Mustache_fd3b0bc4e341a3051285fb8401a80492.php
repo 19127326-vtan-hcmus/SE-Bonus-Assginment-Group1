@@ -1,0 +1,176 @@
+<?php
+
+class __Mustache_fd3b0bc4e341a3051285fb8401a80492 extends Mustache_Template
+{
+    private $lambdaHelper;
+
+    public function renderInternal(Mustache_Context $context, $indent = '')
+    {
+        $this->lambdaHelper = new Mustache_LambdaHelper($this->mustache, $context);
+        $buffer = '';
+
+        $buffer .= $indent . '<div class
+';
+        $buffer .= $indent . '    </div>
+';
+        $buffer .= $indent . '    <div ';
+        $blockFunction = $context->findInBlock('containerattributes');
+        if (is_callable($blockFunction)) {
+            $buffer .= call_user_func($blockFunction, $context);
+        }
+        $buffer .= '
+';
+        $buffer .= $indent . '        id="popover-region-container-';
+        $value = $this->resolveValue($context->find('uniqid'), $context);
+        $buffer .= call_user_func($this->mustache->getEscape(), $value);
+        $buffer .= '"
+';
+        $buffer .= $indent . '        class="popover-region-container"
+';
+        $buffer .= $indent . '        data-region="popover-region-container"
+';
+        $buffer .= $indent . '        aria-expanded="false"
+';
+        $buffer .= $indent . '        aria-hidden="true"
+';
+        $buffer .= $indent . '        aria-label="';
+        $blockFunction = $context->findInBlock('containerlabel');
+        if (is_callable($blockFunction)) {
+            $buffer .= call_user_func($blockFunction, $context);
+        }
+        $buffer .= '"
+';
+        $buffer .= $indent . '        role="region">
+';
+        $buffer .= $indent . '        <div class="popover-region-header-container">
+';
+        $buffer .= $indent . '            <h3 class="popover-region-header-text" data-region="popover-region-header-text">';
+        $blockFunction = $context->findInBlock('headertext');
+        if (is_callable($blockFunction)) {
+            $buffer .= call_user_func($blockFunction, $context);
+        }
+        $buffer .= '</h3>
+';
+        $buffer .= $indent . '            <div class="popover-region-header-actions" data-region="popover-region-header-actions">';
+        $blockFunction = $context->findInBlock('headeractions');
+        if (is_callable($blockFunction)) {
+            $buffer .= call_user_func($blockFunction, $context);
+        }
+        $buffer .= '</div>
+';
+        $buffer .= $indent . '        </div>
+';
+        $buffer .= $indent . '        <div class="popover-region-content-container" data-region="popover-region-content-container">
+';
+        $buffer .= $indent . '            <div class="popover-region-content" data-region="popover-region-content">
+';
+        $buffer .= $indent . '                ';
+        $blockFunction = $context->findInBlock('content');
+        if (is_callable($blockFunction)) {
+            $buffer .= call_user_func($blockFunction, $context);
+        }
+        $buffer .= '
+';
+        $buffer .= $indent . '            </div>
+';
+        if ($partial = $this->mustache->loadPartial('core/loading')) {
+            $buffer .= $partial->renderInternal($context, $indent . '            ');
+        }
+        $buffer .= $indent . '        </div>
+';
+        $blockFunction = $context->findInBlock('anchor');
+        if (is_callable($blockFunction)) {
+            $buffer .= call_user_func($blockFunction, $context);
+        } else {
+            // 'urls.seeall' section
+            $value = $context->findDot('urls.seeall');
+            $buffer .= $this->sectionB29fdf374a618dfe2cab17ecd39d3ab9($context, $indent, $value);
+        }
+        $buffer .= $indent . '    </div>
+';
+        $buffer .= $indent . '</div>
+';
+
+        return $buffer;
+    }
+
+    private function section560076495ba24e041d1e004b36f2b0d1(Mustache_Context $context, $indent, $value)
+    {
+        $buffer = '';
+    
+        if (!is_string($value) && is_callable($value)) {
+            $source = ' seeall, message ';
+            $result = call_user_func($value, $source, $this->lambdaHelper);
+            if (strpos($result, '{{') === false) {
+                $buffer .= $result;
+            } else {
+                $buffer .= $this->mustache
+                    ->loadLambda((string) $result)
+                    ->renderInternal($context);
+            }
+        } elseif (!empty($value)) {
+            $values = $this->isIterable($value) ? $value : array($value);
+            foreach ($values as $value) {
+                $context->push($value);
+                
+                $buffer .= ' seeall, message ';
+                $context->pop();
+            }
+        }
+    
+        return $buffer;
+    }
+
+    private function sectionB29fdf374a618dfe2cab17ecd39d3ab9(Mustache_Context $context, $indent, $value)
+    {
+        $buffer = '';
+    
+        if (!is_string($value) && is_callable($value)) {
+            $source = '
+                <a class="see-all-link"
+                    href="{{{.}}}">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">{{#str}} seeall, message {{/str}}</div>
+                    </div>
+                </a>
+            ';
+            $result = call_user_func($value, $source, $this->lambdaHelper);
+            if (strpos($result, '{{') === false) {
+                $buffer .= $result;
+            } else {
+                $buffer .= $this->mustache
+                    ->loadLambda((string) $result)
+                    ->renderInternal($context);
+            }
+        } elseif (!empty($value)) {
+            $values = $this->isIterable($value) ? $value : array($value);
+            foreach ($values as $value) {
+                $context->push($value);
+                
+                $buffer .= $indent . '                <a class="see-all-link"
+';
+                $buffer .= $indent . '                    href="';
+                $value = $this->resolveValue($context->last(), $context);
+                $buffer .= $value;
+                $buffer .= '">
+';
+                $buffer .= $indent . '                    <div class="popover-region-footer-container">
+';
+                $buffer .= $indent . '                        <div class="popover-region-seeall-text">';
+                // 'str' section
+                $value = $context->find('str');
+                $buffer .= $this->section560076495ba24e041d1e004b36f2b0d1($context, $indent, $value);
+                $buffer .= '</div>
+';
+                $buffer .= $indent . '                    </div>
+';
+                $buffer .= $indent . '                </a>
+';
+                $context->pop();
+            }
+        }
+    
+        return $buffer;
+    }
+
+}
