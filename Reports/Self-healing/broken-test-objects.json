@@ -879,6 +879,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Editing quiz quiz 6/a_from question bank_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/a_Student Two",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641382110919_25\u0027]/div[6]/div/div/div/div[2]/div/a[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//a[contains(@href, \u0027#\u0027)])[39]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard/a_Student Two_href.png"
     }
   ]
 }
