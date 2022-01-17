@@ -889,6 +889,56 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard/a_Student Two_href.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Edit questions/a_Edit",
+      "brokenLocator": "//a[@id\u003d\u0027action-menu-toggle-1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Quiz 5\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Edit questions/a_Edit_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_1 Quiz 3/a_Preview quiz",
+      "brokenLocator": "//section[@id\u003d\u0027region-main\u0027]/div[3]/div/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mark as done\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_1 Quiz 3/a_Preview quiz_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Quiz 3/input_Rich text editor_next",
+      "brokenLocator": "//input[@id\u003d\u0027mod_quiz-next-nav\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Quiz 3/input_Rich text editor_next_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Quiz 3 Attempt summary/button_Submit all and finish",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61dbe1d0515e48\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Contact site support\u0027])[1]/preceding::button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Quiz 3 Attempt summary/button_Submit all and finish_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_1 Quiz 3/a_Attempt quiz",
+      "brokenLocator": "//section[@id\u003d\u0027region-main\u0027]/div[3]/div/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mark as done\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_1 Quiz 3/a_Attempt quiz_neighbor.png"
     }
   ]
 }
